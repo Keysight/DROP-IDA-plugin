@@ -1,0 +1,34 @@
+# Our direct dependencies:
+python-qt5 == 0.1.10    # underscore?
+sark == 1.0
+
+# Dependencies of provided eggs:
+networkx == 1.11
+pycparser == 2.17
+cffi>=1.0.3
+cachetools
+rpyc
+futures
+progressbar
+mulpyplexer
+cooldict
+ana
+pyelftools
+pefile
+idalink
+unicorn
+dpkt-fix
+enum34
+bintrees
+angr-only-z3-custom == 9002
+claripy == 6.7.1.31
+
+
+# With the following eggs provided:
+
+#  angr == 6.7.6.9
+#  archinfo == 6.7.1.13
+#  cle == 6.7.1.31
+#  pyvex == 6.7.1.31
+#  simuvex == 6.7.1.31
+#  z3-solver == 4.5.1.0.post1   # underscore?
