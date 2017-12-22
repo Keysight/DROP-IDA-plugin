@@ -1,6 +1,6 @@
 # Experimental opaque predicate detection for IDA Pro
 
-Drop (**D**rop **R**emoves **O**paque **P**redicates) is **experimental** an IDA Pro plugin capable of detecting several types of opaque predicates in obfuscated binaries by making use of the symbolic-execution engine *angr* and its components.
+Drop (**D**rop **R**emoves **O**paque **P**redicates) is an **experimental** IDA Pro plugin capable of detecting several types of opaque predicates in obfuscated binaries by making use of the symbolic-execution engine *angr* and its components.
 Specifically, Drop can detect, highlight and (primitively) remove the following types of opaque predicates:
 
 - invariant opaque predicates (i.e. "normal" opaque predicates without context)
